@@ -1,0 +1,24 @@
+spring:
+  datasource:
+      driver-class-name: com.mysql.jdbc.Driver
+      username: root
+      password: 123456
+      url: jdbc:mysql://119.27.191.130:3306/sell?characterEncoding=utf-8&useSSl=false
+  application:
+    name: order
+  rabbitmq:
+    addresses: 119.27.191.130
+    username: guest
+    password: guest
+    publisher-confirms: true
+    virtual-host: /  
+server:
+  port: 8081
+PRODUCT:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+env:
+  test111
+girl:
+  name: lili
+  age: 19
