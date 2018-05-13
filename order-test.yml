@@ -11,7 +11,10 @@ spring:
     username: guest
     password: guest
     publisher-confirms: true
-    virtual-host: /  
+    virtual-host: / 
+  redis:
+    host: 119.27.191.130
+    port: 6379  
 server:
   port: 8081
 PRODUCT:
