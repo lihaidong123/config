@@ -6,4 +6,4 @@ spring:
       url: jdbc:mysql://119.27.191.130:3306/sell?characterEncoding=utf-8&useSSl=false
   redis:
     host: 119.27.191.130
-  port: 6379  
+    port: 6379  
