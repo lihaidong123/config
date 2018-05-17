@@ -1,4 +1,5 @@
 zuul:
+  sensitive-headers: 
   routes:
     myProduct:
       path: /myProduct/**
@@ -6,3 +7,4 @@ zuul:
       sensitiveHeaders:
   ignored-patterns:
     - /**/product/listForOrder
+    
